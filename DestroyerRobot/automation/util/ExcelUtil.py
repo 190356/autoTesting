@@ -16,6 +16,8 @@ class xlsxoper():
     """
     def __init__(self,path):
         self.path = path
+
+    #向表格内写入
     def writeXLS(self,headings,data=None,datanums=20,sheet1='Sheet1'):
         """
         对文件是否存在进行判断
@@ -29,8 +31,8 @@ class xlsxoper():
         testos = SystemOs()
         if testos.is_file(self.path):
             try:
-                workbook = xlsxwriter.Workbook(self.path)
-                worksheet = workbook.add_worksheet(sheet1)
+                workbook = xlsxwriter.Workbook(self.path) #新建excel表
+                worksheet = workbook.add_worksheet(sheet1) #新建sheet（sheet的名称为"sheet1"）
                 # data = [
                 #     ['2017-9-1', '2017-9-2', '2017-9-3', '2017-9-4', '2017-9-5', '2017-9-6'],
                 #     [10, 40, 50, 20, 10, 50]
@@ -68,11 +70,12 @@ class xlsxoper():
             msg = "文件不存在"
             return msg
 
+    #读取表格内数据
     def readerXLS(self,sheet1='Sheet1'):
         testos = SystemOs()
         if testos.is_file(self.path):
-            workbook = xlrd.open_workbook(self.path)
-            booksheet = workbook.sheet_by_name(sheet1)
+            workbook = xlrd.open_workbook(self.path)  #打开文件
+            booksheet = workbook.sheet_by_name(sheet1)  #获取sheet内的汇总数据
             # print(booksheet.nrows)
             # print(booksheet.ncols)
             p = list()
@@ -83,6 +86,16 @@ class xlsxoper():
                     val = cel.value
                     try:
                         val = cel.value
+                        '''
+                        r\s 去除空格
+                        re.sub(pattern, repl, string, count=0, flags=0)
+                        re.sub
+                        用于替换字符串的匹配项。如果没有匹配到规则，则原字符串不变。
+                        第一个参数：规则
+                        第二个参数：替换后的字符串
+                        第三个参数：字符串
+                        第四个参数：替换个数。默认为0，表示每个匹配项都替换
+                        '''
                         val = re.sub(r'\s+', '', val)
                     except:
                         pass

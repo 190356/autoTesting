@@ -30,7 +30,7 @@ class SystemOs:
         :param filepath:
         :return:
         """
-        isfile = self.isFile(filepath)
+        isfile = self.isFile(filepath) #isfile()函数判断是否为一般文件
         msg = ""
         try:
             if isfile:
@@ -61,7 +61,7 @@ class SystemOs:
         返回项目的根目录 ，
         :return:
         """
-        # 获取根项目路径
+        # 获取根项目路径  os.path.dirname(__file__)的作用是 返回脚本的路径，即文件路径中所在的目录（不包含文件名），如果文件名只写的是test.py，则返回空
         curPath = os.path.dirname(__file__)
         #print("curPath==============",curPath)
         rootPath = curPath[:curPath.find("DestroyerRobot") + len("DestroyerRobot/")]

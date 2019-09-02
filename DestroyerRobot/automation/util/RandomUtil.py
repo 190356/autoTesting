@@ -41,8 +41,8 @@ class TestRamdom:
         :param ndigits:精度值，四舍五入，默认取值为2位小数
         :return:
         """
-        FloatNum = random.uniform(0,num)
-        FloatNum = round(FloatNum,ndigits)
+        FloatNum = random.uniform(0,num)  #返回浮点型随机数
+        FloatNum = round(FloatNum,ndigits) #四舍五入 取固定小数位
         return FloatNum
 
     def RandomShang(self,num):
@@ -52,7 +52,7 @@ class TestRamdom:
         """
         randomnum=self.RandomTest()
         quotient = randomnum%num
-        return quotient 
+        return quotient
 
 # if __name__=='__main__':
 #

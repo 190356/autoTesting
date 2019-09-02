@@ -47,6 +47,7 @@ class Email:
             server.login(fromAddress, password)
             server.sendmail(fromAddress, toAddress, m.as_string())
             print('success')
+            #server.close()
             server.quit()
         except smtplib.SMTPException as e:
             print(traceback.format_exc())

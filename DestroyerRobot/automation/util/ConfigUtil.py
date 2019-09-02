@@ -33,7 +33,7 @@ class Config:
             sysOsPath=sysos.sys_path(self.configPath)
             # 用config对象读取配置文件
             conf.read(sysOsPath)
-            return conf.get(self.group, key)  # type:str
+            return conf.get(self.group,key)  # type:str
         except Exception as e:
             print(e)
             # 异常后，让程序停止。暂留

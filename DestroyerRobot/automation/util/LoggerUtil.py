@@ -24,6 +24,7 @@ class Log:
 
         # 创建一个logger
         logger = logging.getLogger("myLogger")
+        #设置日志级别 分为debug、info、warning、error以及critical，默认为logging.WARNNING
         logger.setLevel(logging.DEBUG)
         # 创建一个handler，用于写入日志文件
         conf = Config("FilePath")

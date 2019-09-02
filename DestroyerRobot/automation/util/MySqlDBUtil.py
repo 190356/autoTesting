@@ -49,6 +49,8 @@ class MysqlDB:
             self.passwd = db_info["passwd"]
             self.sqltable = db_info["sqltable"]
             self.port = int(db_info["port"])
+
+            #打开数据库连接
             self.db = pymysql.connect(self.host, self.uname, self.passwd, self.sqltable, self.port)
             # 创建游标对象
             cur = self.db.cursor()
@@ -100,7 +102,7 @@ class MysqlDB:
         try:
             # 执行sql语句
             cur.execute(sql,value)
-            # 正常结束事务
+            # 提交修改
             self.db.commit()
         except Exception as e:
             print(e)
@@ -139,6 +141,7 @@ class MysqlDB:
         cur = self.getCursor()
         try:
             cur.execute(sql,value)
+            #cur.execute(sql)
             self.db.commit()
         except Exception as e:
             print(e)
