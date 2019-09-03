@@ -21,11 +21,12 @@ class XmlUtil:
         # 使用minidom解析器打开 XML 文档
         #print("xml文件路径：", xml_filepath)
         # 得到文档对象
-        DOMTree = xmldom.parse(xml_filepath)
-        # 得到元素对象
+        DOMTree = xmldom.parse(xml_filepath) #打开xml文件
+        # 获取文档对象元素
         root = DOMTree.documentElement
-        # 获得子标签
+        # 获得子标签，根据标签名称获取标签对象
         pages_element = root.getElementsByTagName("Page")
+        print("pages_element:",pages_element)
         # for i in pages_element:
         #     print(i.getAttribute("keyword"))
         page_list = []
@@ -35,6 +36,7 @@ class XmlUtil:
             page_dict = {"keyword": "", "UIElement": ""}
             page_keyword = pages_element[page_element].getAttribute("keyword")
             ui_elements = pages_element[page_element].getElementsByTagName("UIElement")
+            print("ui_elements:", ui_elements)
             for ui_element in range(len(ui_elements)):
                 ui_dict = {"keyword": "", "by": "", "UIElement": ""}
                 keyword = ui_elements[ui_element].getAttribute("keyword")
@@ -43,10 +45,13 @@ class XmlUtil:
                 ui_dict["keyword"] = keyword
                 ui_dict["by"] = by
                 ui_dict["value"] = value
+                # print("ui_dict",ui_dict)
                 ui_list.append(ui_dict.copy())
+                # print("ui_list",ui_list)
             page_dict["keyword"] = page_keyword
             page_dict["UIElement"] = ui_list
             page_list.append(page_dict)
+            # print("page_list",page_list)
         return page_list
 
 
@@ -64,7 +69,8 @@ class XmlUtil:
         return by, value
 
 if __name__ == '__main__':
-    filepath = 'E:/python_workspace/DestroyerRobot/automation/datas/UILibrary.xml'
+    # filepath = 'E:/python_workspace/DestroyerRobot/automation/datas_template/UILibrary.xml'
+    filepath = 'D:/easylife-autotest/DestroyerRobot/automation/datas_template/UILibrary.xml'
     xmls= XmlUtil(filepath)
 
     s = xmls.xml_parsing("登录页面","用户")

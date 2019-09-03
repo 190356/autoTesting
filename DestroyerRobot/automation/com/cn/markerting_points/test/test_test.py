@@ -10,6 +10,7 @@ from selenium import webdriver
 from BeautifulReport import BeautifulReport
 from DestroyerRobot.automation.com.cn.markerting_points.servers.MPLoing.test_mplogin import mplogin_test
 from DestroyerRobot.automation.com.cn.markerting_points.servers.MPTree.test_mptree import test_mptree
+from DestroyerRobot.automation.com.cn.markerting_points.servers.newCms.test_NCLogin import Test_NCLogin
 import unittest
 import time
 class test_login(unittest.TestCase):
@@ -44,7 +45,12 @@ class test_login(unittest.TestCase):
         mptree = test_mptree(login_drivers)
         mptree.get_link_points_shopping()
 
-
+    def test_03_ncmslogin(self):
+        """
+              用户登录新运营后台
+        """
+        mplogin =Test_NCLogin(self.driver)
+        mplogin.test_login()
 
 if __name__=='__main__':
     unittest.main()

@@ -81,8 +81,9 @@ class SystemOs:
 if __name__ == "__main__":
     s = SystemOs()
     paths="automation/datas/config.cfg"
+    #print(s.sys_path(paths))
     print(s.sys_path())
 
-    #print(s.project_path())
+    print(s.project_path())
 
 

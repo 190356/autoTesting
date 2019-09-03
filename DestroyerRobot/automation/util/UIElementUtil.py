@@ -55,6 +55,7 @@ class UiElement:
             locator = (By.XPATH, value)
         else:
             print("定位元素不存在", by, value)
+        # 显示等待
         web_element = wait.until(EC.visibility_of_element_located(locator))
         return web_element
 
