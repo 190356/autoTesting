@@ -70,11 +70,13 @@ class XmlUtil:
 
 if __name__ == '__main__':
     # filepath = 'E:/python_workspace/DestroyerRobot/automation/datas_template/UILibrary.xml'
-    filepath = 'D:/easylife-autotest/DestroyerRobot/automation/datas_template/UILibrary.xml'
+    filepath = 'D:/easylife-autotest/DestroyerRobot/automation/datas_template/ncms_tree.xml'
     xmls= XmlUtil(filepath)
 
-    s = xmls.xml_parsing("登录页面","用户")
-    print(s)
-    m = xmls.xml_parsing("首页","客户管理")
-    print(m)
+    # s = xmls.xml_parsing("登录页面","用户")
+    # print(s)
+    # m = xmls.xml_parsing("首页","客户管理")
+    # print(m)
 
+    s = xmls.xml_parsing("跟投管理菜单","跟投分配规则")
+    print(s)

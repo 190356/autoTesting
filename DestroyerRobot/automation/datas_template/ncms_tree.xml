@@ -1,0 +1,11 @@
+<Pages>
+    <Page keyword="银行转账菜单">
+        <UIElement keyword="银行转账审核" by="xpath" value="//*[contains(text(),'银行转账审核')]"></UIElement>
+        <UIElement keyword="银行转账审核" by="css selector" value=".el-menu.el-menu--inline')]"></UIElement>
+    </Page>
+    <Page keyword="跟投管理菜单">
+        <UIElement keyword="跟投管理" by="xpath" value="//*[contains(text(),'跟投管理')]"></UIElement>
+        <UIElement keyword="跟投规则管理" by="xpath" value="//*[contains(text(),'跟投规则管理')]"></UIElement>
+        <UIElement keyword="跟投分配规则" by="xpath" value="//*[contains(text(),'跟投分配规则')]"></UIElement>
+    </Page>
+</Pages>

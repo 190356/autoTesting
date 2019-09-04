@@ -11,6 +11,7 @@ from BeautifulReport import BeautifulReport
 from DestroyerRobot.automation.com.cn.markerting_points.servers.MPLoing.test_mplogin import mplogin_test
 from DestroyerRobot.automation.com.cn.markerting_points.servers.MPTree.test_mptree import test_mptree
 from DestroyerRobot.automation.com.cn.markerting_points.servers.newCms.test_NCLogin import Test_NCLogin
+from DestroyerRobot.automation.com.cn.markerting_points.servers.newCms.test_NCTransferAudit import test_NCTransferAudit
 import unittest
 import time
 class test_login(unittest.TestCase):
@@ -24,7 +25,7 @@ class test_login(unittest.TestCase):
 
     def tearDown(self):
         self.driver.quit()
-
+    '''
     @BeautifulReport.add_test_img('test_01_mplogin')#失败后会有报告截图
     def test_01_mplogin(self):
         """
@@ -44,13 +45,29 @@ class test_login(unittest.TestCase):
         login_drivers = mplogin.test_login()
         mptree = test_mptree(login_drivers)
         mptree.get_link_points_shopping()
+    '''
 
-    def test_03_ncmslogin(self):
+    # @BeautifulReport.add_test_img('test_03_ncmslogin')  # 失败后会有报告截图
+    # def test_03_ncmslogin(self):
+    #     """
+    #           用户登录新运营后台
+    #     """
+    #     mplogin =Test_NCLogin(self.driver)
+    #     mplogin.test_login()
+
+    @BeautifulReport.add_test_img('test_04_ncmslogin')  # 失败后会有报告截图
+    def test_04_ncmsTransferAudit(self):
         """
-              用户登录新运营后台
+              银行转账审核
         """
-        mplogin =Test_NCLogin(self.driver)
-        mplogin.test_login()
+        mplogin = Test_NCLogin(self.driver)
+        login_driver=mplogin.test_login()
+        # test_NCTransferAudit(login_driver).get_parent_transfer_audit()
+        test_NCTransferAudit(login_driver).get_child_transfer_audit()
+
+
+
+
 
 if __name__=='__main__':
     unittest.main()
