@@ -62,8 +62,13 @@ class test_login(unittest.TestCase):
         """
         mplogin = Test_NCLogin(self.driver)
         login_driver=mplogin.test_login()
-        # test_NCTransferAudit(login_driver).get_parent_transfer_audit()
-        test_NCTransferAudit(login_driver).get_child_transfer_audit()
+        test_NCTransferAudit(login_driver).operation()
+        # test_NCTransferAudit(login_driver).mouse_op()
+        # test_NCTransferAudit(login_driver).execute_script("document.querySelector('.bscroll-indicator').scrollTop=10000")
+        time.sleep(3)
+        print("拖动滚动条成功")
+        test_NCTransferAudit(login_driver).get_parent_transfer_audit()
+        # test_NCTransferAudit(login_driver).get_child_transfer_audit()
 
 
 

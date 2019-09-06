@@ -73,8 +73,8 @@ class Test_NCLogin:
             mp_login.base.maximize_window()
             mp_login.input_mobile(excel[0]["userName"],bys_moblie,values_mobile)
             mp_login.input_password(excel[0]["password"],bys_password,values_password)
-
             mp_login.input_click(bys_login,values_login)
+
             driver = mp_login.base.get_driver()
             return  driver
         except Exception :

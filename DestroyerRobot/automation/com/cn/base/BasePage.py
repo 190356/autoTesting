@@ -225,16 +225,20 @@ class BasePage:
 ##############################################################
     """
     鼠标控件操作
+    drag_and_drop_by_offset(source, xoffset, yoffset)  拖动到某个位置松开
     """
-    def ActionChains(self,driver_ele):
+    def ActionChains(self,driver_ele,x_location,y_location):
         ActionChains(self.driver).move_to_element(driver_ele).perform()
+
 
 
 ############################################################
     """
     js处理方式
     """
-    def get_js(self,*js_value):
+
+    # def get_js(self, *js_value):
+    def get_js(self,js_value):
         self.logger.info("js文本内容:【%s】" %js_value)
         self.implicitly_wait()
         self.driver.execute_script(js_value)
