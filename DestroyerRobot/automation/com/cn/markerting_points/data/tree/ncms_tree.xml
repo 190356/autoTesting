@@ -7,9 +7,9 @@
         <UIElement keyword="查询" by="css selector" value="button.el-button.el-button--primary"></UIElement>
         <UIElement keyword="获取数据总条数" by="class name" value="el-pagination__total"></UIElement>
         <UIElement keyword="审核按钮" by="css selector" value="a.handleA.mr20"></UIElement>
+        <UIElement keyword="审核按钮1" by="xpath" value="//*[contains(text(),'审核')]"></UIElement>
         <UIElement keyword="上传图片按钮" by="class name" value="add-btn"></UIElement>
         <UIElement keyword="通过按钮" by="xpath" value="//*[contains(text(),'通 过')]"></UIElement>
-
 
     </Page>
     <Page keyword="接口配置菜单">

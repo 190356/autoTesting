@@ -3,9 +3,10 @@ from DestroyerRobot.automation.util.SystemOsUtil import SystemOs
 from DestroyerRobot.automation.util.XmlUtil import XmlUtil
 from DestroyerRobot.automation.util.ConfigUtil import Config
 from DestroyerRobot.automation.com.cn.markerting_points.servers.newCms.NCTransferAudit import NCTransferAudit
-from DestroyerRobot.automation.com.cn.markerting_points.servers.MPTree.MPTree import MPTree
 from DestroyerRobot.automation.util.DateTimeUtil import TestDateTime
+from DestroyerRobot.automation.com.cn.base.BasePage import BasePage
 import traceback
+import os
 import time
 
 class test_NCTransferAudit:
@@ -48,31 +49,30 @@ class test_NCTransferAudit:
         SystemOs().mkdirs_file(img_path)
         return img_path
 
+    # js操作滚动条
     def operation(self):
-        # js2 = "var q=document.documentElement.scrollTop=10000"
         js2="document.getElementsByClassName('el-menu-vertical-demo el-menu')[0].style='transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1); transition-duration: 0ms; transform: translate(0px, -775px) scale(1) translateZ(0px);'"
-        #js2="document.getElementsByClassName('bscroll-indicator')[0].style.top='1000px'"
         print(type(js2))
         NCTransferAudit(self.driver).opera(js2)
-
-    # def search(self):
-    #     bys_pAudit2, values_pAudit2 = self.childConfigXML("银行转账菜单", "审核状态")
-    #     bys_pAudit3, values_pAudit3 = self.childConfigXML("银行转账菜单", "未审核")
-    #     bys_pAudit4, values_pAudit4 = self.childConfigXML("银行转账菜单", "查询")
-    #     bys_pAudit6, values_pAudit6 = self.childConfigXML("银行转账菜单", "审核按钮")
-    #     mptree = NCTransferAudit(self.driver)
-    #     try:
-    #         mptree.get_elements(bys_pAudit2, values_pAudit2)
-    #         mptree.points_managers(bys_pAudit3, values_pAudit3)
-    #         mptree.points_managers(bys_pAudit4, values_pAudit4)
-    #         mptree.audit(bys_pAudit6, values_pAudit6)
-    #         mpdriver = mptree.page.get_driver()
-    #         return mpdriver
-    #     except Exception:
-    #         img_path = self.childConfigImgPath()
-    #         mptree.page.save_img(img_path, str(int(TestDateTime().time_stamp())))
-    #         print(traceback.format_exc())
-
+    '''
+    def search(self):
+        bys_pAudit2, values_pAudit2 = self.childConfigXML("银行转账菜单", "审核状态")
+        bys_pAudit3, values_pAudit3 = self.childConfigXML("银行转账菜单", "未审核")
+        bys_pAudit4, values_pAudit4 = self.childConfigXML("银行转账菜单", "查询")
+        bys_pAudit6, values_pAudit6 = self.childConfigXML("银行转账菜单", "审核按钮")
+        mptree = NCTransferAudit(self.driver)
+        try:
+            mptree.get_elements(bys_pAudit2, values_pAudit2)
+            mptree.points_managers(bys_pAudit3, values_pAudit3)
+            mptree.points_managers(bys_pAudit4, values_pAudit4)
+            mptree.audit(bys_pAudit6, values_pAudit6)
+            mpdriver = mptree.page.get_driver()
+            return mpdriver
+        except Exception:
+            img_path = self.childConfigImgPath()
+            mptree.page.save_img(img_path, str(int(TestDateTime().time_stamp())))
+            print(traceback.format_exc())
+    '''
     def get_parent_transfer_audit(self):
         """
         父节点银行转账审核
@@ -95,14 +95,16 @@ class test_NCTransferAudit:
             # mptree.points_shopping(bys_pAudit, values_pAudit)
             mptree.points_managers(bys_pAudit, values_pAudit)
             mptree.points_managers(bys_pAudit1, values_pAudit1)
-            test_NCTransferAudit(self.driver).search()
+            # test_NCTransferAudit(self.driver).search()
             time.sleep(3)
             mptree.get_elements(bys_pAudit2, values_pAudit2)
-
             mptree.points_managers(bys_pAudit3, values_pAudit3)
+            mptree.input_banknum(bys_pAudit2, values_pAudit2)
             mptree.points_managers(bys_pAudit4, values_pAudit4)
             mptree.points_managers(bys_pAudit5, values_pAudit5)
-            mptree.audit( bys_pAudit6, values_pAudit6)
+            time.sleep(2)
+            # mptree.audit(bys_pAudit6, values_pAudit6)
+            test_NCTransferAudit(self.driver).audit(bys_pAudit6, values_pAudit6)
 
             mpdriver = mptree.page.get_driver()
             return mpdriver
@@ -117,6 +119,7 @@ class test_NCTransferAudit:
         mptree = NCTransferAudit(self.driver)
         try:
             mptree.points_managers(bys_pAudit7, values_pAudit7)
+            os.system(os.getcwd() + "\\autoit\\auditUploadPic.exe")  #autoit上传图片
             mpdriver = mptree.page.get_driver()
             return mpdriver
         except Exception:
@@ -139,6 +142,29 @@ class test_NCTransferAudit:
             print(traceback.format_exc())
 
     '''
+    def audit(self,bys,values):
+        ele = self.page.getElementByElements(bys, values)
+        for i in range(len(ele)):
+            self.page.click(ele[i])
+            time.sleep(2)
+            test_NCTransferAudit().uploadPic()
+            print("hjj")
+
+            test_NCTransferAudit.auditPass()
+            time.sleep(2)
+            test_NCTransferAudit.search()
+            # self.page.refresh()
+    '''
+
+    #单条数据的审核
+    def audit(self,bys,values):
+        # ele = self.page.getElementByElement(bys,values)
+        ele = BasePage(self.driver).getElementByElement(bys,values)
+        # for i in range(len(ele)):
+        BasePage(self.driver).click(ele)
+
+
+    '''
     def get_child_transfer_audit(self):
         """
         子节点银行转账审核
@@ -158,3 +184,4 @@ class test_NCTransferAudit:
             print(traceback.format_exc())
 
     '''
+

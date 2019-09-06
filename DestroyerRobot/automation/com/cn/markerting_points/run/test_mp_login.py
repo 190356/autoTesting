@@ -15,6 +15,7 @@ class testFileReport:
     def rootChildConfigPath(self):
         # 从主配置文件中获取子配置文件路径
         conf2 = Config("ConfigKIDs")
+
         # 获取子文件路径
         confFile = conf2.get_configPath("markerting_points_configs")
         return confFile
