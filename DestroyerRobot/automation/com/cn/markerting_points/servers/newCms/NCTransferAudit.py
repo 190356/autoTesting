@@ -27,12 +27,16 @@ class NCTransferAudit:
 
     def input_banknum(self,bys,values):
         ele = self.page.getElementByElements(bys, values)
-        self.page.sendkeys(ele[2], "366858096589")
+        self.page.sendkeys(ele[2], "36999889")
 
+    def input_customer_name(self,bys,values):
+        ele = self.page.getElementByElements(bys, values)
+        self.page.sendkeys(ele[0], "123")
 
     def opera(self,js1):
         self.page.get_js(js1)
         self.page.implicitly_wait()
+
 
 
     # def audit(self,bys,values):

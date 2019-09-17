@@ -68,6 +68,8 @@ class test_login(unittest.TestCase):
         time.sleep(3)
         print("拖动滚动条成功")
         test_NCTransferAudit(login_driver).get_parent_transfer_audit()
+        # test_NCTransferAudit(login_driver).uploadPic()
+        # test_NCTransferAudit(login_driver).auditPass()
         # test_NCTransferAudit(login_driver).get_child_transfer_audit()
 
 
