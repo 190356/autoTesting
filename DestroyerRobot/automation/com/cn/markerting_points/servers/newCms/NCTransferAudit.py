@@ -37,6 +37,10 @@ class NCTransferAudit:
         self.page.get_js(js1)
         self.page.implicitly_wait()
 
+    def upload_pic(self,bys,values):
+        ele = self.page.getElementByElement(bys, values)
+        self.page.sendkeys(ele, "C:\\Users\lyg\Pictures\Saved Pictures\pic.jpg")
+
 
 
     # def audit(self,bys,values):

@@ -95,7 +95,8 @@ class test_NCTransferAudit:
             img_path = self.childConfigImgPath()
             mptree.page.save_img(img_path, str(int(TestDateTime().time_stamp())))
             print(traceback.format_exc())
-
+    '''
+    使用autoit进行图片上传
     def uploadPic(self):
         bys_pAudit7, values_pAudit7 = self.childConfigXML("银行转账菜单", "上传图片按钮")
 
@@ -109,7 +110,7 @@ class test_NCTransferAudit:
             img_path = self.childConfigImgPath()
             mptree.page.save_img(img_path, str(int(TestDateTime().time_stamp())))
             print(traceback.format_exc())
-
+    '''
     def auditPass(self):
         bys_pAudit8, values_pAudit8 = self.childConfigXML("银行转账菜单", "通过按钮")
         mptree = NCTransferAudit(self.driver)
@@ -125,13 +126,14 @@ class test_NCTransferAudit:
     def audit(self,bys,values):
         mptree = NCTransferAudit(self.driver)
         # bys_pAudit5, values_pAudit5 = self.childConfigXML("银行转账菜单", "获取数据总条数")
+        bys_pAudit8, values_pAudit8 = self.childConfigXML("银行转账菜单", "上传图片")
         try:
             ele = BasePage(self.driver).getElementByElements(bys, values)
             for i in range(len(ele)):
                 BasePage(self.driver).click(ele[i])
                 time.sleep(2)
                 BasePage(self.driver).refresh()
-                test_NCTransferAudit(self.driver).uploadPic()
+                mptree.upload_pic(bys_pAudit8, values_pAudit8)
                 print("hjj")
                 test_NCTransferAudit(self.driver).auditPass()
                 time.sleep(3)

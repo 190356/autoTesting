@@ -9,6 +9,7 @@
         <UIElement keyword="审核按钮" by="css selector" value="a.handleA.mr20"></UIElement>
         <UIElement keyword="审核按钮1" by="xpath" value="//*[contains(text(),'审核')]"></UIElement>
         <UIElement keyword="上传图片按钮" by="class name" value="add-btn"></UIElement>
+        <UIElement keyword="上传图片" by="css selector" value="input[type='file']"></UIElement>
         <UIElement keyword="通过按钮" by="xpath" value="//*[contains(text(),'通 过')]"></UIElement>
 
     </Page>
