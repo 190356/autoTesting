@@ -70,7 +70,7 @@ class test_NCTransferAudit:
             global text
             text= BasePage(self.driver).getElementByElement(bys_pAudit5, values_pAudit5).text
             print("总条数是：", text)
-            test_NCTransferAudit(self.driver).audit(bys_pAudit6, values_pAudit6)
+            # test_NCTransferAudit(self.driver).audit(bys_pAudit6, values_pAudit6)
         except Exception:
             img_path = self.childConfigImgPath()
             mptree.page.save_img(img_path, str(int(TestDateTime().time_stamp())))
@@ -84,11 +84,13 @@ class test_NCTransferAudit:
         # 获取XML中相关信息
         bys_pAudit, values_pAudit = self.childConfigXML("银行转账菜单", "父节点银行转账审核")
         bys_pAudit1, values_pAudit1 = self.childConfigXML("银行转账菜单", "子节点银行转账审核")
+        bys_pAudit6, values_pAudit6 = self.childConfigXML("银行转账菜单", "审核按钮")
         mptree = NCTransferAudit(self.driver)
         try:
             mptree.points_managers(bys_pAudit, values_pAudit)
             mptree.points_managers(bys_pAudit1, values_pAudit1)
             test_NCTransferAudit(self.driver).search()
+            test_NCTransferAudit(self.driver).audit(bys_pAudit6, values_pAudit6)
             time.sleep(3)
 
         except Exception:
@@ -126,24 +128,30 @@ class test_NCTransferAudit:
     def audit(self,bys,values):
         mptree = NCTransferAudit(self.driver)
         # bys_pAudit5, values_pAudit5 = self.childConfigXML("银行转账菜单", "获取数据总条数")
+
         bys_pAudit8, values_pAudit8 = self.childConfigXML("银行转账菜单", "上传图片")
         try:
             ele = BasePage(self.driver).getElementByElements(bys, values)
-            for i in range(len(ele)):
-                BasePage(self.driver).click(ele[i])
-                time.sleep(2)
-                BasePage(self.driver).refresh()
-                mptree.upload_pic(bys_pAudit8, values_pAudit8)
-                print("hjj")
-                test_NCTransferAudit(self.driver).auditPass()
-                time.sleep(3)
-                test_NCTransferAudit(self.driver).search()
-                time.sleep(3)
-                if text=="共 0 条":
-                    print("全部审核完成")
-                    break
-                else:
-                    test_NCTransferAudit(self.driver).audit(bys,values)
+            if len(ele)==0:
+                print("没有待审核的数据")
+            else:
+                # for i in range(len(ele)):
+                count=int(text.split(" ")[1])
+                print(count)
+                for i in range(count):
+                    print(i)
+                    BasePage(self.driver).click(BasePage(self.driver).getElementByElements(bys, values)[0])
+                    # BasePage(self.driver).click(i)
+                    time.sleep(2)
+                    BasePage(self.driver).refresh()
+                    mptree.upload_pic(bys_pAudit8, values_pAudit8)
+                    test_NCTransferAudit(self.driver).auditPass()
+                    time.sleep(3)
+                    test_NCTransferAudit(self.driver).search()
+                    time.sleep(5)
+                    if text=="共 0 条":
+                        print("全部审核完成")
+                        break
         except Exception:
             img_path = self.childConfigImgPath()
             mptree.page.save_img(img_path, str(int(TestDateTime().time_stamp())))
