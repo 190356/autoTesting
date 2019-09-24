@@ -48,4 +48,5 @@ if __name__ == '__main__':
     #discover操作
     discover = unittest.defaultTestLoader.discover(test_dir,'test_*.py',None)
     filename = '测试报告'+str(TestDateTime().report_file())
+    # 运行discover后的测试用例集，并在当前路径下生成测试报告
     BeautifulReport(discover).report(description='测试',filename=filename,report_dir=report_dir)

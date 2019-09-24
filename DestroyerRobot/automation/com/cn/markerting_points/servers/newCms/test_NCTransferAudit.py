@@ -65,6 +65,7 @@ class test_NCTransferAudit:
             mptree.get_elements(bys_pAudit2, values_pAudit2)
             mptree.points_managers(bys_pAudit3, values_pAudit3)
             mptree.input_customer_name(bys_pAudit2, values_pAudit2)
+            mptree.input_banknum(bys_pAudit2, values_pAudit2)
             mptree.points_managers(bys_pAudit4, values_pAudit4)
             # test_NCTransferAudit(self.driver).audit(bys_pAudit6, values_pAudit6)
             global text
@@ -128,22 +129,28 @@ class test_NCTransferAudit:
         # bys_pAudit5, values_pAudit5 = self.childConfigXML("银行转账菜单", "获取数据总条数")
         bys_pAudit8, values_pAudit8 = self.childConfigXML("银行转账菜单", "上传图片")
         try:
+            # 获取审核按钮，如果为0 弹出提示
             ele = BasePage(self.driver).getElementByElements(bys, values)
-            for i in range(len(ele)):
-                BasePage(self.driver).click(ele[i])
-                time.sleep(2)
-                BasePage(self.driver).refresh()
-                mptree.upload_pic(bys_pAudit8, values_pAudit8)
-                print("hjj")
-                test_NCTransferAudit(self.driver).auditPass()
-                time.sleep(3)
-                test_NCTransferAudit(self.driver).search()
-                time.sleep(3)
-                if text=="共 0 条":
-                    print("全部审核完成")
-                    break
-                else:
-                    test_NCTransferAudit(self.driver).audit(bys,values)
+            count=int(text.split(" ")[1])
+            print(count)
+            if len(ele)==0:
+                print("没有待审核的数据")
+            else:
+                for i in range(count):
+                    # 输入查询条件点击查询按钮后获取总条数进行循环审核
+                    print(i)
+                    BasePage(self.driver).click(BasePage(self.driver).getElementByElements(bys, values)[0])
+                    time.sleep(2)
+                    BasePage(self.driver).refresh()
+                    mptree.upload_pic(bys_pAudit8, values_pAudit8)
+                    print("hjj")
+                    test_NCTransferAudit(self.driver).auditPass()
+                    time.sleep(2)
+                    test_NCTransferAudit(self.driver).search()
+                    time.sleep(2)
+                    # if text=="共 0 条":
+                    #     print("全部审核完成")
+                    #     break
         except Exception:
             img_path = self.childConfigImgPath()
             mptree.page.save_img(img_path, str(int(TestDateTime().time_stamp())))

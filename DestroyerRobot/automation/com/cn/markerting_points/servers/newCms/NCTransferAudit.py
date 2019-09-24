@@ -27,11 +27,11 @@ class NCTransferAudit:
 
     def input_banknum(self,bys,values):
         ele = self.page.getElementByElements(bys, values)
-        self.page.sendkeys(ele[2], "36999889")
+        self.page.sendkeys(ele[2], "4")
 
     def input_customer_name(self,bys,values):
         ele = self.page.getElementByElements(bys, values)
-        self.page.sendkeys(ele[0], "123")
+        self.page.sendkeys(ele[0], "456")
 
     def opera(self,js1):
         self.page.get_js(js1)
@@ -39,7 +39,7 @@ class NCTransferAudit:
 
     def upload_pic(self,bys,values):
         ele = self.page.getElementByElement(bys, values)
-        self.page.sendkeys(ele, "C:\\Users\lyg\Pictures\Saved Pictures\pic.jpg")
+        self.page.sendkeys(ele, "/Users/mengdehao/Downloads/pic.jpg")
 
 
 

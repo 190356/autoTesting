@@ -22,4 +22,12 @@
         <UIElement keyword="跟投规则管理" by="xpath" value="//*[contains(text(),'跟投规则管理')]"></UIElement>
         <UIElement keyword="跟投分配规则" by="xpath" value="//*[contains(text(),'跟投分配规则')]"></UIElement>
     </Page>
+    <Page keyword="跟投分配规则菜单">
+        <UIElement keyword="新增按钮" by="xpath" value="//*[contains(text(),'新增')]"></UIElement>
+        <UIElement keyword="规则名称" by="css selector" value="input[placeholder='请输入跟投分配规则名称']"></UIElement>
+        <UIElement keyword="跟投类型" by="class name" value="el-radio"></UIElement>
+        <UIElement keyword="规则名称" by="css selector" value="input[placeholder='请输入定向跟投分配占比']"></UIElement>
+        <UIElement keyword="规则名称" by="css selector" value="input[placeholder='请输入募集跟投分配占比']"></UIElement>
+        <UIElement keyword="新增按钮" by="xpath" value="//*[contains(text(),'下一步')]"></UIElement>
+    </Page>
 </Pages>
