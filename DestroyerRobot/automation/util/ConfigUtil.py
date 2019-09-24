@@ -80,12 +80,12 @@ class Config:
         return self.parsing_config(configPath)
 if __name__=='__main__':
 
-    #conf = Config("FilePath",configPath="E:/python_workspace/DestroyerRobot/automation/com/cn/markerting_points/config/config.cfg")
+    #conf = Config("FilePath",configPath="E:/python_workspace/DestroyerRobot/automation/com/cn/new_cms/config/config.cfg")
     conf = Config("URL")
     keys = conf.parsing_config("marketing")
     # s = SystemOs().sys_path()
     # print("s=",s)
-    # filepath = s+"automation/com/cn/markerting_points/config/config.cfg"
+    # filepath = s+"automation/com/cn/new_cms/config/config.cfg"
     # conf = Config("FilePath",
     #               configPath=filepath)
     # keys=conf.parsing_config("user_login")

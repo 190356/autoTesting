@@ -51,7 +51,7 @@ if __name__ == '__main__':
     dictData = {"userName": 3, "password": 4, "expected": 6}
     #test_data.xlsx 对应地址为 SystemOs().sys_path("automation/datas", file_path)
     #test_data 为脚表
-    filePath = "E:/python_workspace/DestroyerRobot/automation/com/cn/markerting_points/data/login/test_data_login.xlsx"
+    filePath = "E:/python_workspace/DestroyerRobot/automation/com/cn/new_cms/data/login/test_data_login.xlsx"
     test_data = DoExcel(filePath, 'sheet1').do_excel(**dictData)
     print(test_data)
 
