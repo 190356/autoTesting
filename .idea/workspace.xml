@@ -2,15 +2,310 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38f82a21-f459-4867-902c-da315cbbf8f8" name="Default" comment="update">
-      <change beforePath="" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568714208.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568714344.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568714426.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_17_55_59.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_17_58_12.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_17_59_34.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_18_03_32.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/test_NCTransferAudit.py" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/test_NCTransferAudit.py" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/__init__.py" afterPath="$PROJECT_DIR$/DestroyerRobot/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/__init__.py" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/autoit/auditUploadPic.au3" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/autoit/auditUploadPic.au3" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/__init__.py" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/com/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/__init__.py" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/base/BasePage.py" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/base/BasePage.py" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/base/__init__.py" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/base/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/config/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/config/config.cfg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/dao/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/data/login/UILogin.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/data/login/ncms_login_data.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/data/login/test_data_login.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/data/tree/UITree.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/data/tree/ncms_tree.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/data/treekids/UITreeKids.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-07-27/error1564209812.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-08-20/error1566270190.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-08-20/error1566270239.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-08-20/error1566270406.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-08-20/error1566270497.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-08-20/error1566270560.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567576460.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567576570.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567576687.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567583087.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567583149.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567583654.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567584343.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567584422.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567584427.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567590974.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567591663.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567593920.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567593924.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567594174.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567594178.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567594496.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567594501.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567594548.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567594552.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567594870.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567594875.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567596929.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567596933.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567598453.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567598457.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567598928.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567600310.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-04/error1567600315.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-05/error1567670427.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-05/error1567670543.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-05/error1567670674.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-05/error1567670825.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-05/error1567671017.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-05/error1567671102.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-05/error1567671288.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-05/error1567671491.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-05/error1567676196.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-05/error1567681431.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-05/error1567681724.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-05/error1567682933.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-05/error1567684397.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-05/error1567684568.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-05/error1567684634.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-05/error1567684770.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-16/error1568643212.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-16/error1568643226.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-16/error1568643240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-16/error1568643463.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-16/error1568643971.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-16/error1568644188.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-16/error1568644192.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-16/error1568645200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-16/error1568645209.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-16/error1568645345.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-16/error1568645381.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-16/error1568645417.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568684989.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568684996.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568685508.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568685546.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568685584.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568685622.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568685635.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568685640.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568685656.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568695940.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568695945.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568695961.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568696063.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568696292.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568696297.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568696314.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568696344.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568696375.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568696666.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568696670.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568696688.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568696799.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568696803.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568698248.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568698252.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568711265.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568714208.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568714344.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-17/error1568714426.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-18/error1568793406.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-18/error1568801933.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-18/error1568805056.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-18/error1568805166.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-19/error1568855721.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-19/error1568855800.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-19/error1568856082.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-19/error1568856200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-08-21/测试报告2019_08_21_15_52_19.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-08-21/测试报告2019_08_21_16_23_58.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-08-21/测试报告2019_08_21_16_25_25.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-08-22/测试报告2019_08_22_16_34_31.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-08-22/测试报告2019_08_22_17_37_03.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-02/测试报告2019_09_02_18_22_31.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-03/测试报告2019_09_03_15_13_59.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-03/测试报告2019_09_03_16_26_47.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-03/测试报告2019_09_03_16_27_30.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-03/测试报告2019_09_03_16_28_08.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-03/测试报告2019_09_03_16_28_59.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-03/测试报告2019_09_03_16_29_13.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-03/测试报告2019_09_03_16_34_01.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-03/测试报告2019_09_03_16_36_16.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-03/测试报告2019_09_03_18_16_10.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-03/测试报告2019_09_03_18_24_02.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_13_34_33.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_13_35_25.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_13_39_25.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_13_41_06.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_13_42_11.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_13_43_34.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_13_43_55.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_13_46_25.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_13_51_07.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_13_53_37.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_13_55_26.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_13_57_22.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_15_44_04.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_15_45_04.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_15_53_29.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_16_01_42.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_16_05_20.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_16_06_42.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_17_55_52.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_18_07_21.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_18_09_22.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_18_19_40.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_18_35_08.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_18_38_51.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_18_41_33.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_18_44_53.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_18_48_19.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_18_49_07.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_18_54_29.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_18_55_21.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_18_59_36.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_19_00_44.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_19_35_02.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_19_56_20.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_19_58_05.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_20_00_23.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_20_06_15.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_20_08_40.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_20_09_30.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-04/测试报告2019_09_04_20_31_21.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_13_43_14.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_15_32_12.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_15_59_54.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_16_01_49.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_16_03_57.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_16_06_19.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_16_09_31.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_16_10_56.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_16_14_01.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_16_17_30.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_16_20_43.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_16_21_58.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_17_18_47.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_17_33_35.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_17_35_53.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_18_37_09.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_18_41_57.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_18_44_26.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_18_46_28.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_18_49_50.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_18_50_13.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_18_52_08.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_18_53_08.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_18_55_53.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_18_59_28.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_19_03_11.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_19_08_04.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_19_09_36.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_19_18_55.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_19_28_13.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_19_31_07.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_19_39_21.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_19_46_25.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_19_52_46.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_19_55_36.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_19_56_43.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-05/测试报告2019_09_05_19_58_58.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-16/测试报告2019_09_16_21_52_49.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-16/测试报告2019_09_16_21_55_43.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-16/测试报告2019_09_16_22_02_15.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-16/测试报告2019_09_16_22_09_15.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-16/测试报告2019_09_16_22_12_45.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-16/测试报告2019_09_16_22_16_58.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-16/测试报告2019_09_16_22_22_49.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-16/测试报告2019_09_16_22_23_34.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-16/测试报告2019_09_16_22_25_09.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-16/测试报告2019_09_16_22_28_37.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-16/测试报告2019_09_16_22_45_31.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_09_48_31.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_10_15_23.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_10_34_34.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_10_37_54.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_11_00_06.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_11_45_13.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_12_53_33.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_12_56_42.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_13_07_29.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_13_31_15.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_15_42_21.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_16_43_50.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_16_47_18.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_16_57_00.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_17_00_36.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_17_03_09.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_17_05_10.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_17_10_26.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_17_22_08.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_17_25_41.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_17_27_38.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_17_30_49.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_17_55_59.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_17_58_12.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_17_59_34.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-17/测试报告2019_09_17_18_03_32.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_15_23_14.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_15_40_05.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_15_43_09.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_15_46_19.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_15_55_46.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_15_57_38.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_16_01_24.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_16_04_56.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_16_47_42.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_16_59_12.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_17_16_37.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_17_22_23.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_17_22_59.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_17_34_46.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_17_37_58.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_18_20_08.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_18_43_50.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_18_45_06.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_18_47_38.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_18_54_58.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_19_03_30.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_19_09_40.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-18/测试报告2019_09_18_19_11_31.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-19/测试报告2019_09_19_09_14_35.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-19/测试报告2019_09_19_09_15_54.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-19/测试报告2019_09_19_09_20_36.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-19/测试报告2019_09_19_09_22_03.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/report/2019-09-19/测试报告2019_09_19_09_24_35.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/run/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/run/test_mp_login.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/MPLoing/MPLogin.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/MPLoing/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/MPLoing/test_mplogin.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/MPTree/MPTree.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/MPTree/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/MPTree/test_mptree.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/MPTreeKids/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/NCLogin.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/NCTransferAudit.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/test_NCLogin.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/test_NCTransferAudit.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/test/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/test/test_test.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/configs/__init__.py" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/configs/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/configs/config.cfg" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/configs/config.cfg" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/readme/install_me.txt" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/readme/install_me.txt" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/readme/operation_me.txt" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/readme/operation_me.txt" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/util/ConfigUtil.py" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/util/ConfigUtil.py" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/util/DateTimeUtil.py" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/util/DateTimeUtil.py" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/util/EmailUtil.py" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/util/EmailUtil.py" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/util/ExcelUtil.py" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/util/ExcelUtil.py" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/util/ExcelUtil2.py" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/util/ExcelUtil2.py" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/util/MySqlDBUtil.py" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/util/MySqlDBUtil.py" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/util/RandomUtil.py" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/util/RandomUtil.py" />
+      <change beforePath="$PROJECT_DIR$/DestroyerRobot/automation/util/__init__.py" afterPath="$PROJECT_DIR$/DestroyerRobot/automation/util/__init__.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,69 +315,40 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/autoTesting$test_mp_login__1_.coverage" NAME="test_mp_login (1) Coverage Results" MODIFIED="1569320427754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/ncms/run" />
+    <SUITE FILE_PATH="coverage/autoTesting$test_ncms.coverage" NAME="test_ncms Coverage Results" MODIFIED="1569407567273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/new_cms/run" />
     <SUITE FILE_PATH="coverage/autoTesting$test_mp_login.coverage" NAME="test_mp_login Coverage Results" MODIFIED="1568856274724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/run" />
+    <SUITE FILE_PATH="coverage/autoTesting$test_mp_login__2_.coverage" NAME="test_mp_login (2) Coverage Results" MODIFIED="1569406570192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/new_cms/run" />
     <SUITE FILE_PATH="coverage/autoTesting$Unittests_in_test_test_py.coverage" NAME="Unittests in test_test.py Coverage Results" MODIFIED="1568705098361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/test" />
     <SUITE FILE_PATH="coverage/autoTesting$LoggerUtil.coverage" NAME="LoggerUtil Coverage Results" MODIFIED="1568869324328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DestroyerRobot/automation/util" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/test/test_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_mplogin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/MPLoing/test_mplogin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#174#234#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_mp_login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/run/test_mp_login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="40" column="66" lean-forward="false" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasePage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/base/BasePage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="32" column="23" lean-forward="false" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/logging/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33616">
+            <state relative-caret-position="22">
               <caret line="1530" column="8" lean-forward="false" selection-start-line="1530" selection-start-column="8" selection-end-line="1530" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoggerUtil.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/util/LoggerUtil.py">
+      <file leaf-file-name="config.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/config/config.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="41" />
+            <state relative-caret-position="460">
+              <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/new_cms/config/config.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="29" column="58" lean-forward="true" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -91,21 +357,19 @@
       <file leaf-file-name="config.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/configs/config.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="80" />
+            <state relative-caret-position="218">
+              <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NCTransferAudit.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/NCTransferAudit.py">
+      <file leaf-file-name="test_ncms.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/new_cms/run/test_ncms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#67#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-422">
+              <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,19 +384,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_NCTransferAudit.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/test_NCTransferAudit.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3124">
-              <caret line="150" column="33" lean-forward="true" selection-start-line="150" selection-start-column="33" selection-end-line="150" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -159,6 +418,10 @@
         <option value="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/data/tree/ncms_tree.xml" />
         <option value="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/NCTransferAudit.py" />
         <option value="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/test_NCTransferAudit.py" />
+        <option value="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/new_cms/run/test_ncms.py" />
+        <option value="$PROJECT_DIR$/DestroyerRobot/automation/configs/config.cfg" />
+        <option value="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/config/config.cfg" />
+        <option value="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/new_cms/config/config.cfg" />
       </list>
     </option>
   </component>
@@ -168,9 +431,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1910" />
-    <option name="y" value="10" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1646" />
+    <option name="y" value="107" />
     <option name="width" value="1874" />
     <option name="height" value="1096" />
   </component>
@@ -205,8 +468,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,7 +508,7 @@
               <item name="automation" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="markerting_points" type="462c0819:PsiDirectoryNode" />
+              <item name="new_cms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="autoTesting" type="b2602c69:ProjectViewProjectNode" />
@@ -256,7 +517,17 @@
               <item name="automation" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="markerting_points" type="462c0819:PsiDirectoryNode" />
+              <item name="new_cms" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="DestroyerRobot" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="new_cms" type="462c0819:PsiDirectoryNode" />
               <item name="run" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -266,41 +537,15 @@
               <item name="automation" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="markerting_points" type="462c0819:PsiDirectoryNode" />
-              <item name="servers" type="462c0819:PsiDirectoryNode" />
+              <item name="new_cms" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="autoTesting" type="b2602c69:ProjectViewProjectNode" />
               <item name="autoTesting" type="462c0819:PsiDirectoryNode" />
               <item name="DestroyerRobot" type="462c0819:PsiDirectoryNode" />
               <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="markerting_points" type="462c0819:PsiDirectoryNode" />
-              <item name="servers" type="462c0819:PsiDirectoryNode" />
-              <item name="MPLoing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autoTesting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autoTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="DestroyerRobot" type="462c0819:PsiDirectoryNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="markerting_points" type="462c0819:PsiDirectoryNode" />
-              <item name="servers" type="462c0819:PsiDirectoryNode" />
-              <item name="MPTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autoTesting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autoTesting" type="462c0819:PsiDirectoryNode" />
-              <item name="DestroyerRobot" type="462c0819:PsiDirectoryNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="markerting_points" type="462c0819:PsiDirectoryNode" />
-              <item name="servers" type="462c0819:PsiDirectoryNode" />
-              <item name="newCms" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="autoTesting" type="b2602c69:ProjectViewProjectNode" />
@@ -313,15 +558,20 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../autoTest" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\learn\autoTesting\DestroyerRobot\automation\com\cn\ncms" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\learn\autoTesting\DestroyerRobot\automation\com\cn\markerting_points\servers\newCms" />
     </key>
@@ -338,7 +588,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LoggerUtil">
+  <component name="RunManager" selected="Python.test_ncms">
     <configuration name="LoggerUtil" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -353,6 +603,44 @@
       <module name="autoTesting" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DestroyerRobot/automation/util/LoggerUtil.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test_mp_login (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/ncms/run" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="autoTesting" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/ncms/run/test_mp_login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test_mp_login (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/new_cms/run" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="autoTesting" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/new_cms/run/test_mp_login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -377,31 +665,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unittests in test_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="test_ncms" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/new_cms/run" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="autoTesting" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/test/test_test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DestroyerRobot/automation/com/cn/new_cms/run/test_ncms.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.test_mp_login" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_test.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python.LoggerUtil" />
+      <item index="1" class="java.lang.String" itemvalue="Python.LoggerUtil" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test_mp_login (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test_mp_login (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test_ncms" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.LoggerUtil" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test_mp_login" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_test.py" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.test_ncms" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test_mp_login (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test_mp_login (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.LoggerUtil" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test_mp_login" />
       </list>
     </recent_temporary>
   </component>
@@ -444,7 +740,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="1646" y="107" width="1874" height="1096" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -453,7 +749,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26381648" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.097527474" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29162073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30485114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -489,53 +785,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/test/test_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1562">
-          <caret line="71" column="56" lean-forward="false" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/base/BasePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="61" column="35" lean-forward="true" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/config/config.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/data/tree/ncms_tree.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="93" lean-forward="false" selection-start-line="11" selection-start-column="93" selection-end-line="11" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/test_NCLogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/NCTransferAudit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/util/UIElementUtil.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -543,14 +792,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/run/test_mp_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/run/test_mp_login.py" />
     <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/util/SystemOsUtil.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -559,16 +801,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/test_NCTransferAudit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3300">
-          <caret line="160" column="56" lean-forward="true" selection-start-line="160" selection-start-column="56" selection-end-line="160" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/test_NCTransferAudit.py" />
     <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/configs/config.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -618,13 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/configs/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/util/SystemOsUtil.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -640,11 +866,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-16/error1568644192.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/img/2019-09-16/error1568644192.png" />
     <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/util/UIElementUtil.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -687,13 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/config/config.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/autoit/auditUploadPic.au3">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -701,13 +916,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/test_NCLogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/test_NCLogin.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/BeautifulReport/BeautifulReport.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -741,7 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="318" column="0" lean-forward="false" selection-start-line="318" selection-start-column="0" selection-end-line="318" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,17 +967,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/data/treekids/UITreeKids.xml">
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/data/treekids/UITreeKids.xml" />
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/data/tree/ncms_tree.xml" />
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/MPTree/test_mptree.py" />
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/test_NCTransferAudit1.py" />
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/NCTransferAudit.py" />
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/MPLoing/test_mplogin.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1530" column="8" lean-forward="false" selection-start-line="1530" selection-start-column="8" selection-end-line="1530" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/base/BasePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="32" column="23" lean-forward="false" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/run/test_mp_login.py" />
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/util/LoggerUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/test/test_test.py" />
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/test_NCTransferAudit.py" />
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/ncms/data/treekids/UITreeKids.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/data/tree/ncms_tree.xml">
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/ncms/config/config.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="63" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="63" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/ncms/test/test_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/ncms/run/test_mp_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -783,86 +1038,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/configs/config.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="80" />
+        <state relative-caret-position="218">
+          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/MPTree/test_mptree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/test_NCTransferAudit1.py" />
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/NCTransferAudit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/MPLoing/test_mplogin.py">
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/configs/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#174#234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/servers/newCms/test_NCTransferAudit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3124">
-          <caret line="150" column="33" lean-forward="true" selection-start-line="150" selection-start-column="33" selection-end-line="150" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/test/test_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/logging/__init__.py">
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/new_cms/config/config.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33616">
-          <caret line="1530" column="8" lean-forward="false" selection-start-line="1530" selection-start-column="8" selection-end-line="1530" selection-end-column="8" />
+        <state relative-caret-position="460">
+          <caret line="29" column="58" lean-forward="true" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/base/BasePage.py">
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/config/config.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="32" column="23" lean-forward="false" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        <state relative-caret-position="460">
+          <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/markerting_points/run/test_mp_login.py">
+    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/com/cn/new_cms/run/test_ncms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="40" column="66" lean-forward="false" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DestroyerRobot/automation/util/LoggerUtil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="41" />
+        <state relative-caret-position="-422">
+          <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
           <folding />
         </state>
       </provider>
