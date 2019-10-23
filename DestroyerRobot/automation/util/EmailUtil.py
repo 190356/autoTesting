@@ -54,5 +54,5 @@ class Email:
 
 
 if __name__ == "__main__":
-    files = "E:\\python_workspace\\DestroyerRobot\\automation\\com\\cn\\markerting_points\\report\\测试报告2019_07_30_21_48_35.html"
+    files = "E:\\python_workspace\\DestroyerRobot\\automation\\com\\cn\\new_cms\\report\\测试报告2019_07_30_21_48_35.html"
     Email(files).sendEmail()
